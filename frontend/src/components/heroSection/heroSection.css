@@ -10,6 +10,12 @@
     background-position: 50% 70%;
 }
 
+.hero h2 {
+    color:  #173e34;
+    text-align: center;
+    margin-top: 50px;
+}
+
 
 /* ---------TABLET VIEW---------- */
 @media (min-width: 667px) and (max-width: 1024px) {
@@ -23,5 +29,10 @@
     .hero {
         /* height: 450px; */
         background-position: 10% 55%;
+    }
+
+    .hero h2 {
+        font-size: 32px;
+        margin-top: 70px; 
     }
 }
